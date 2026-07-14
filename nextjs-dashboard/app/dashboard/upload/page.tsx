@@ -1,33 +1,35 @@
 "use client";
 
-import { useQuery } from "@tanstack/react-query";
-import { getImages } from "@/app/lib/images";
+import { useImages } from "@/app/lib/hooks/use-images";
+import ImageGrid from "../../features/upload/image-grid";
+import UploadForm from "../../features/upload/upload-form";
 
 export default function UploadPage() {
   const {
     data,
     isLoading,
     error,
-  } = useQuery({
-    queryKey: ["images"],
-    queryFn: getImages,
-  });
+  } = useImages();
+
 
   if (isLoading) {
-    return <p>Chargement des images...</p>;
+    return <p>Chargement...</p>;
   }
 
   if (error) {
-    return <p>Erreur lors du chargement des images</p>;
+    return <p>Erreur</p>;
   }
 
-  return (
-    <div>
-      <h1>Upload Image</h1>
 
-      <pre>
-        {JSON.stringify(data, null, 2)}
-      </pre>
+  return (
+    <div className="mx-auto max-w-5xl p-6">
+      <h1 className="mb-6 text-3xl font-bold">
+        Upload Image
+      </h1>
+
+      <UploadForm />
+
+      <ImageGrid images={data.images} />
     </div>
   );
 }

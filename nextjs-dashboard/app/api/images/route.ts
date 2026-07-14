@@ -1,9 +1,21 @@
-import { writeFile } from "fs/promises";
+import { readdir, writeFile } from "fs/promises";
 import path from "path";
 
 export async function GET() {
+  const uploadPath = path.join(
+    process.cwd(),
+    "public/uploads"
+  );
+
+  const files = await readdir(uploadPath);
+
+  const images = files.map((filename) => ({
+    filename,
+    url: `/uploads/${filename}`,
+  }));
+
   return Response.json({
-    images: [],
+    images,
   });
 }
 
