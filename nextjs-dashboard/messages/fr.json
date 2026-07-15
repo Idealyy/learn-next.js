@@ -1,0 +1,14 @@
+{
+  "Common": {
+    "dashboard": "Dashboard",
+    "upload": "Upload",
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+
+  "Upload": {
+    "title": "Upload Image",
+    "description": "Choose an image to upload.",
+    "button": "Upload Image"
+  }
+}

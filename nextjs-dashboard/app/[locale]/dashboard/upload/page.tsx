@@ -1,8 +1,8 @@
 "use client";
 
+import ImageGrid from "@/app/features/upload/image-grid";
+import UploadForm from "@/app/features/upload/upload-form";
 import { useImages } from "@/app/lib/hooks/use-images";
-import ImageGrid from "../../features/upload/image-grid";
-import UploadForm from "../../features/upload/upload-form";
 
 export default function UploadPage() {
   const {
