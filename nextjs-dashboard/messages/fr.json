@@ -11,5 +11,62 @@
     "customers": "Clients",
     "upload": "Import",
     "signOut": "Déconnexion"
+  },
+  "Dashboard": {
+    "title": "Tableau de bord",
+    "collected": "Collecté",
+    "pending": "En attente",
+    "totalInvoices": "Total des factures",
+    "totalCustomers": "Nombre de clients"
+  },
+   "Home": {
+    "welcome": "Bienvenue sur Acme.",
+    "description": "Ceci est l'exemple du cours Next.js Learn, proposé par Vercel.",
+    "login": "Se connecter"
+  },
+  "Invoices": {
+    "title": "Factures",
+    "searchPlaceholder": "Rechercher des factures...",
+    "create": "Créer une facture"
+  },
+   "InvoicesTable": {
+    "customer": "Client",
+    "email": "Email",
+    "amount": "Montant",
+    "date": "Date",
+    "status": "Statut",
+    "edit": "Modifier"
+  },
+   "InvoiceStatus": {
+    "pending": "En attente",
+    "paid": "Payée"
+  },
+  "InvoiceButtons": {
+    "create": "Créer une facture",
+    "delete": "Supprimer"
+  },
+  "CreateInvoiceForm": {
+    "chooseCustomer": "Choisir un client",
+    "selectCustomer": "Sélectionner un client",
+    "chooseAmount": "Choisir un montant",
+    "amountPlaceholder": "Entrer le montant en USD",
+    "status": "Définir le statut de la facture",
+    "pending": "En attente",
+    "paid": "Payée",
+    "cancel": "Annuler",
+    "create": "Créer une facture"
+  },
+   "CreateInvoicePage": {
+    "invoices": "Factures",
+    "createInvoice": "Créer une facture"
+  },
+   "LatestInvoices": {
+    "title": "Dernières factures",
+    "updated": "Mis à jour à l'instant"
+  },
+   "RevenueChart": {
+    "title": "Revenus récents",
+    "noData": "Aucune donnée disponible.",
+    "period": "12 derniers mois"
   }
 }

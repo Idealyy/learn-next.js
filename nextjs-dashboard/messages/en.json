@@ -13,5 +13,62 @@
     "customers": "Customers",
     "upload": "Upload",
     "signOut": "Sign Out"
+  },
+   "Dashboard": {
+    "title": "Dashboard",
+    "collected": "Collected",
+    "pending": "Pending",
+    "totalInvoices": "Total Invoices",
+    "totalCustomers": "Total Customers"
+  },
+   "Home": {
+    "welcome": "Welcome to Acme.",
+    "description": "This is the example for the Next.js Learn Course, brought to you by Vercel.",
+    "login": "Log in"
+  },
+   "Invoices": {
+    "title": "Invoices",
+    "searchPlaceholder": "Search invoices...",
+    "create": "Create Invoice"
+  },
+  "InvoicesTable": {
+    "customer": "Customer",
+    "email": "Email",
+    "amount": "Amount",
+    "date": "Date",
+    "status": "Status",
+    "edit": "Edit"
+  },
+  "InvoiceStatus": {
+    "pending": "Pending",
+    "paid": "Paid"
+  },
+  "InvoiceButtons": {
+    "create": "Create Invoice",
+    "delete": "Delete"
+  },
+   "CreateInvoiceForm": {
+    "chooseCustomer": "Choose customer",
+    "selectCustomer": "Select a customer",
+    "chooseAmount": "Choose an amount",
+    "amountPlaceholder": "Enter USD amount",
+    "status": "Set the invoice status",
+    "pending": "Pending",
+    "paid": "Paid",
+    "cancel": "Cancel",
+    "create": "Create Invoice"
+  },
+   "CreateInvoicePage": {
+    "invoices": "Invoices",
+    "createInvoice": "Create Invoice"
+  },
+  "LatestInvoices": {
+    "title": "Latest Invoices",
+    "updated": "Updated just now"
+  },
+   "RevenueChart": {
+    "title": "Recent Revenue",
+    "noData": "No data available.",
+    "period": "Last 12 months"
   }
 }
