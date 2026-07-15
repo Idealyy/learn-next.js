@@ -1,14 +1,17 @@
+
 {
-  "Common": {
-    "dashboard": "Dashboard",
-    "upload": "Upload",
-    "cancel": "Cancel",
-    "save": "Save"
+  "LoginPage": {
+    "title": "Please log in to continue.",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Log in"
   },
 
-  "Upload": {
-    "title": "Upload Image",
-    "description": "Choose an image to upload.",
-    "button": "Upload Image"
+  "Navigation": {
+    "home": "Home",
+    "invoices": "Invoices",
+    "customers": "Customers",
+    "upload": "Upload",
+    "signOut": "Sign Out"
   }
 }
